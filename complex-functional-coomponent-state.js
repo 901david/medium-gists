@@ -1,0 +1,10 @@
+const [columns, setColumns] = useState([]);
+const [rows, setRows] = useState([]);
+const [isDisabled, setIsDisabled] = useState(false);
+const [isLoading, setIsLoading] = useState(true);
+const [isValidInput, setIsValidInput] = useState(true);
+const [selectedDropdownItems, setSelectedDropdownItems] = useState([]);
+const [hasColumnVariations, setHasColumnVariations] = useState(true);
+const [randomVaritaitons, setRandomVariations] = useState([]);
+const [userAddedVariations, setUserAddedVariations] = useState([]);
+const [systemVarations, setSystemVariations] = useState([]);
